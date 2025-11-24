@@ -23,7 +23,7 @@
 
 /* tablet View */
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1199px) {
   .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -37,7 +37,7 @@
 
    .grid > div:nth-child(3n) {
     grid-column: 1 / -1;   
-    max-width: 50%;        
+    max-width: 50%;       
     margin: 0 auto;    
   }
 
